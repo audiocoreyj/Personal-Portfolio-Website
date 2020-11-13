@@ -31,17 +31,40 @@
   background-image: url(./images/IMG_20190723_153135.jpg);
   background-color: #cccccc;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 45px;
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   z-index: 100px !important;
-  color: black;
-  text-decoration: black;
+  color: #30475e #222831 #f05454 #e8e8e8;
+  text-decoration: underline;
+  font-size: 90px;
   text-overflow: clip;
 }
+
+.about-me {
+  width: 460px;
+  padding: 5px;
+  border: 7px solid;
+  margin: 0;
+  margin-left: 200px;
+  margin-top: 30px;
+  background-color: #7e7474;
+  font-size: 18px;
+}
+
+.about-me-2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.about-me-3 {
+  text-align: center;
+}
+
+
 
 
 
