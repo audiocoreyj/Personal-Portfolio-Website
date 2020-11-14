@@ -116,6 +116,10 @@ text-decoration: underline;
   z-index: -1;
 }
 
+#skills-container img {
+  max-height: 40px;
+}
+
 footer {
   margin-top: 50px;
   text-align: center;
