@@ -47,17 +47,33 @@
           </div>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-            <strong>Album</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
+    </head>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><bold>EUGENE's PORTFOLIO</bold></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="post.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
     </header>
 
     <main>
@@ -77,8 +93,35 @@
         <p>High School Year</p>
         <p> >> St John International School</p>
         <p> >> 2001-2007</p>
-        </div>
+      </div>
+      </div>
 
+      <section id="projects">
+        <h2>Projects</h2>
+      </section>
+
+      <details class="project">
+        <summary class="project-title">
+          <h3>Mixed Message</h3>
+        </summary>
+        <div class="image-sizing-1">
+      <img src="images/mixedmessage.png" alt="mixed message picture">
+      </div>
+      <p class="project-description"> >> Press the button and display random message using JavaScript</p>
+      </details>
+
+      <details  class="project">
+        <summary class="project-title">
+            <h3>Business Site Landing Page</h3>
+        </summary>
+        <div class="box">
+          <div class="image-sizing-2">
+            <img src="./images/companylandingpage.png" alt="">
+            </div>
+        <p class="project-description"> >> A landing page. Used CSS flexBox make this layout.
+        </p>
+        </div>    
+    </details>
     
 
      
