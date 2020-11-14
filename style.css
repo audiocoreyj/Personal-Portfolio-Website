@@ -49,11 +49,9 @@
 
 #about-me {
   width: 460px;
-  padding: 5px;
   border: 7px solid;
-  margin: 0;
-  margin-left: 450px;
-  margin-top: 30px;
+  margin-left: 460px;
+  margin-top: 10px;
   background-color: #7e7474;
   font-size: 18px;
 }
@@ -124,3 +122,8 @@ footer {
   font-size: 17px;
 }
 
+@media only screen and (max-width: 480px) {
+  #about-me {
+   margin-left: 100px;
+  }
+}
