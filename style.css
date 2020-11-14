@@ -48,13 +48,13 @@
   text-overflow: clip;
 }
 
-.about-me {
+#about-me {
   width: 460px;
   padding: 5px;
   border: 7px solid;
   margin: 0;
   margin-left: 450px;
-  margin-top: 20px;
+  margin-top: 30px;
   background-color: #7e7474;
   font-size: 18px;
 }
@@ -103,7 +103,7 @@ details {
 
 #skills {
   font-size: 20px;
-  margin-left: 625px;
+  margin-left: 640px;
   text-decoration: underline;
 }
 
@@ -114,10 +114,15 @@ details {
   margin-left: 15px;
   padding-top: 20px;
   justify-content: space-between;
-  display: flex;
+  display: grid;
   background-color: #f6f5f5;
   position: relative;
   z-index: -1;
+  grid-template-columns: 400px 400px 400px;
+  justify-items: center;
+  align-content: stretch;
+  justify-self: center;
+  grid-gap: 20px;
 }
 
 footer {
