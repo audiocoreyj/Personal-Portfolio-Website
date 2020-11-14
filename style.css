@@ -42,10 +42,9 @@
   background-size: cover;
   position: relative;
   z-index: 100px !important;
-  color: #212121;
+  color: #a56cc1;
   text-decoration: underline;
   font-size: 90px;
-  text-overflow: clip;
 }
 
 #about-me {
