@@ -100,7 +100,7 @@ details {
   cursor: pointer;
 }
 
-.skills {
+#skills {
 align-items: center;
 margin-left: -5px;
 font-size: 20px;
