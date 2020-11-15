@@ -10,6 +10,7 @@
 
     <!-- CSS File -->
     <link rel="stylesheet" href="./contact.css" type="text/css">
+    <link rel="stylesheet" href="../navbar.css" type="text/css">
 
     <!-- Favicon -->
     <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
@@ -20,33 +21,44 @@
   <body>
 
     <header>
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand" href="../index.html"><bold>EUGENE's PORTFOLIO</bold></a>
-    
-    
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html#about-me">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact/contact.html">Contact</a>
-            </li>
-          </ul>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+      <section id="site-nav">
+        <div class="container">
+          <nav class="navbar navbar-inverse" role="navigation">
+            <div class="company-logo">
+              <a href="">
+                
+              </a>
+            </div>
+            <!--/.logo -->
+            <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>  <span class="icon-bar top-bar"></span>  <span class="icon-bar middle-bar"></span>  <span class="icon-bar bottom-bar"></span> 
+              </button>
+            </div>
+            <div class="collapse navbar-collapse fullwidth" id="navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                <li class="link"><a href=#about-me>About</a>
+                </li>
+                <li class="link"><a href=#projects>Projects</a>
+                </li>
+                <li class="link"><a href=#skills>Skills</a>
+                </li>
+                <li class="link"><a href=".contact">Contact</a>
+                </li>
+                    </a>
+      
+                  </li>
+                </li>
+            </div>
+            <!-- /.navbar-collapse -->
+          </nav>
+          <!-- /.col -->
         </div>
-      </div>
-    </nav>
+        <!-- /.container -->
+      </section>
     
     </header>
 
