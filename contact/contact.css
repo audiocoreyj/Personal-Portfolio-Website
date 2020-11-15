@@ -3,5 +3,24 @@
   }
 
 .contact {
-    margin-top: 10%;
+    margin-top: 7%;
+    margin-left: 150px;
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+}
+
+.find-me {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+    .contact {
+        margin-top: 17%;
+        margin-left: 50px;
+    }
 }
