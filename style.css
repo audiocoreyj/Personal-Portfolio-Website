@@ -3,23 +3,11 @@
   src: url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 }
 
-
-.jumbotron {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 0;
-    background-color: #fff;
-  }
-  @media (min-width: 768px) {
-    .jumbotron {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-    }
-  }
-
   #mainNav {
     background-color: #556052;
   }
+
+  /* Introduction */
 
 .my-picture {
       display: block;
@@ -35,14 +23,14 @@
   background-image: url(./images/IMG_20190723_153135.jpg);
   background-color: #cccccc;
   text-align: center;
-  padding-top: 45px;
+  padding-top: 50px;
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   z-index: 100px !important;
-  color: #a56cc1;
+  color: black;
   text-decoration: underline;
   font-size: 90px;
 }
@@ -50,8 +38,8 @@
 #about-me {
   width: 460px;
   border: 7px solid;
-  margin-left: 460px;
-  margin-top: 10px;
+  margin-left: 33%;
+  margin-top: 5%;
   background-color: #7e7474;
   font-size: 18px;
 }
@@ -64,6 +52,8 @@
 .about-me-3 {
   text-align: center;
 }
+
+/* Projects Section */
 
 #projects {
   text-align: center;
@@ -80,23 +70,33 @@ justify-items: center;
 }
 
 .image-sizing-1 {
+  max-width: 100%;
   margin-left: 400px;
 }
 
-.project-description {
+.image-sizing-2 {
+  margin-left: 25%;
+}
+
+.project-description-1 {
   text-align: center;
   font-size: 20px;
-  margin-top: 100x;
   margin-right: 5px;
 }
 
-.image-sizing-2 {
-  margin-left: 60px;
+.project-description-2 {
+  text-align: center;
+  font-size: 20px;
+  margin-right: 5px;
+  margin-top: -10px;
+  margin-bottom: 5%;
 }
   
 details {
   cursor: pointer;
 }
+
+/* Skills Section */
 
 #skills {
 align-items: center;
@@ -120,14 +120,37 @@ text-decoration: underline;
   max-height: 40px;
 }
 
+/* Footer Section */
+
 footer {
   margin-top: 50px;
   text-align: center;
   font-size: 17px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 600px) {
   #about-me {
-   margin-left: 100px;
+    margin-left: 3%;
+  }
+
+  .image-sizing-1 {
+    margin-left: -15%;
+  }
+
+  .image-sizing-2 {
+    margin-left: -30%;
+    max-width: -40px;
+  }
+
+  .my-name {
+    text-decoration-color: #9088d4;
+    color: #f39233;
+  }
+
+  h3 {
+    margin-left: -5%;
   }
 }
+
+
+
