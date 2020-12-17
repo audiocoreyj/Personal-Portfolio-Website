@@ -24,6 +24,7 @@
 2. JavaScript
 3. Git and GitHub
 4. Command line and file navigation
+5. npm 
 
 ## Status
 - [x] Plan your project
