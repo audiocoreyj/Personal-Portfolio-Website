@@ -1,0 +1,360 @@
+body {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Navbar CSS */
+
+#main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: #F9F7CF;
+}
+
+.skills {
+  position: absolute;
+  width: 131px;
+  height: 34px;
+  left: 780px;
+  top: -10px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.projects {
+  position: absolute;
+  width: 195px;
+  height: 34px;
+  left: 948px;
+  top: -10px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.contact {
+  position: absolute;
+  width: 181px;
+  height: 34px;
+  left: 1150px;
+  top: -10px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.my-image {
+  position: absolute;
+  width: 306px;
+  height: 310px;
+  left: 950px;
+  top: 202px;
+  background: #58bddb;
+  position: absolute;
+  width: 247px;
+  height: 250px;
+  left: 900px;
+  top: 150px;
+  border-radius: 277px;
+}
+
+.my-intro {
+ position: absolute;
+ width: 399px;
+ height: 105px;
+ left: 231px;
+ top: 140px;
+ font-weight: bold;
+ font-size: 36px;
+ line-height: 60px;
+ /* or 122% */
+ color: #21243D;
+}
+
+.my-intro-2 {
+  position: absolute;
+  width: 525px;
+  height: 91px;
+  left: 231px;
+  top: 290px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243D;
+}
+
+/* Skills CSS */
+#skills {
+  position: absolute;
+  width: 100%;
+  height: 654px;
+  left: 0px;
+  top: 573px;
+  background: #F2DCBB;
+}
+
+.title-skills {
+  position: absolute;
+  height: 120px;
+  left: 41.50%;
+  right: 40%;
+  font-weight: 200;
+  font-size: 47px;
+  line-height: 120px;
+  /* identical to box height */
+  text-decoration-line: underline;
+  color: #999999;
+}
+
+.html-image {
+  position: absolute;
+  width: 151px;
+  height: 148px;
+  left: 200px;
+  top: 250px;
+}
+
+.css-image {
+  position: absolute;
+  width: 151px;
+  height: 148px;
+  left: 605px;
+  top: 250px;
+}
+
+.js-image {
+  position: absolute;
+  width: 151px;
+  height: 148px;
+  left: 1000px;
+  top: 250px;
+}
+
+.react-image {
+  position: absolute;
+  width: 151px;
+  height: 148px;
+  left: 200px;
+  top: 460px;
+}
+
+.figma-image {
+  position: absolute;
+  width: 151px;
+  height: 148px;
+  left: 599px;
+  top: 460px;
+}
+
+.git-image {
+  position: absolute;
+  width: 151px;
+  height: 148px;
+  left: 990px;
+  top: 460px;
+}
+
+/* Projects CSS */
+
+#projects {
+  position: absolute;
+  width: 100%;
+  height: 2390px;
+  left: 0px;
+  top: 1227px;
+
+  background: #c9cbff;
+}
+
+.title-projects {
+  position: absolute;
+  height: 120px;
+  left: 38%;
+  right: 40%;
+  font-weight: 200;
+  font-size: 47px;
+  line-height: 120px;
+  /* identical to box height */
+  text-decoration-line: underline;
+  color: #999999;
+}
+
+.colmar-image {
+  position: absolute;
+  width: 815px;
+  height: 453px;
+  left: -490px;
+  top: 300px;
+}
+
+.colmar-paragraph {
+  position: absolute;
+  width: 404px;
+  height: 140px;
+  left: 380px;
+  top: 350px;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 35px;
+  /* or 183% */
+
+  color: #6D6D6D;
+}
+
+.heading-colmar {
+  position: absolute;
+  height: 70px;
+  right: -380px;
+  font-weight: bold;
+  font-size: 35px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.jamming-image {
+  position: absolute;
+  width: 804px;
+  height: 606px;
+  left: 10px;
+  top: 900px;
+}
+
+.heading-jamming {
+  position: absolute;
+  width: 460px;
+  height: 132px;
+  left: -640px;
+  top: 900px;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 35px;
+  /* or 183% */
+  text-align: right;
+  color: black;
+}
+
+.jamming-paragraph {
+  position: absolute;
+  width: 460px;
+  height: 132px;
+  left: -480px;
+  top: 980px;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 35px;
+  /* or 183% */
+  color: #6D6D6D;
+}
+
+.wanderlust-image {
+  position: absolute;
+  width: 684px;
+  height: 604px;
+  left: -490px;
+  top: 1700px;
+}
+
+.wanderlust-heading {
+  position: absolute;
+  height: 90px;
+  right: -410px;
+  top: 1700px;
+
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 35px;
+  /* identical to box height */
+  letter-spacing: -0.257143px;
+  color: #161514;
+}
+
+.wanderlust-paragraph { 
+ position: absolute;
+ width: 460px;
+ height: 132px;
+ left: 280px;
+ top: 1770px;
+ font-weight: normal;
+ font-size: 33px;
+ line-height: 35px;
+ /* or 183% */
+ color: #6D6D6D;
+}
+
+/* Line */
+
+#line {
+  position: absolute;
+  width: 1300px;
+  height: 3px;
+  left: 15px;
+  top: 20px;
+  border: 5px solid #000000;
+  background-color: black;
+}
+
+#contacts {
+  position: absolute;
+  width: 1349px;
+  height: 150px;
+  left: 0px;
+  top: 3617px;
+  background: #F9F7CF;
+}
+
+.copyright {
+  position: absolute;
+  height: 35px;
+  left: 70px;
+  right: 64.38%;
+  top: calc(50% - 35px/2 + 5px);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+}
+
+#copyright {
+  animation-timing-function: linear;
+  position: absolute;
+  animation: mymove 15s;
+}
+
+@keyframes mymove {
+  from {left: -600px;}
+  to {left: 70px;}
+}
+
+/* Contact Me */
+
+.pic-1 {
+  position: absolute;
+  width: 58px;
+  height: 67px;
+  left: 1020px;
+  top: calc(50% - 35px/2 + 20px);
+}
+
+.pic-2 {
+  position: absolute;
+  width: 70px;
+  height: 67px;
+  left: 1130px;
+  top: calc(50% - 35px/2 + 25px);
+}
+
+.pic-3 {
+  position: absolute;
+  width: 49px;
+  height: 67px;
+  left: 1230px;
+  top: calc(50% - 35px/2 + 23px);
+}
