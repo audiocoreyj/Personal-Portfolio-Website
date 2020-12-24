@@ -33,8 +33,8 @@
 - [x] Version control
 - [x] Build the Home Page
 - [x] Style the content
-- [x] Make it responsive
+- [ ] Make it responsive
 - [x] Build the Contact Page
-- [x] Make it interactive
+- [ ] Make it interactive
 - [x] Publish to the web
-- [x] Project is finished
+- [ ] Project is finished
