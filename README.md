@@ -28,13 +28,13 @@
 
 ## Status
 - [x] Plan your project
-- [x] Create files and deploy it Locally
-- [x] Wireframe your website
-- [x] Version control
-- [x] Build the Home Page
-- [x] Style the content
+- [ ] Create files and deploy it Locally
+- [ ] Wireframe your website
+- [ ] Version control
+- [ ] Build the Home Page
+- [ ] Style the content
 - [ ] Make it responsive
-- [x] Build the Contact Page
+- [ ] Build the Contact Page
 - [ ] Make it interactive
-- [x] Publish to the web
+- [ ] Publish to the web
 - [ ] Project is finished
