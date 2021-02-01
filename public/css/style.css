@@ -112,7 +112,7 @@ h2 {
 
 /* For Mobile */
 
-@media only screen and (min-width: 480px) and (max-width: 1200px) {
+@media only screen and (min-width: 480px) and (max-width: 1100px) {
 
     .nav-list {
         display: inline-block;
@@ -212,20 +212,22 @@ h2 {
         border-radius: 10px;
         text-transform: uppercase;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 700;
+        font-weight: 650;
         line-height: 4em;
         transition: 0.2s;
         background: #d3e0ea;
         color: #111;
         letter-spacing: 2px;
-        left: 4vw;
+        left: 1vw;
+        top: 3vw;
     }
 
     h2 {
         position: relative;
-        left: 5vw;
-        font-size: 5vh;
-        line-height: 2em;
+        top: 3vw;
+        left: 1vw;
+        font-size: 35px;
+        line-height: 1.7em;
     }
 
     .resume-1 a:hover {
@@ -237,7 +239,7 @@ h2 {
         height: 160px;
         position: absolute;
         left: 48vw;
-        bottom: 86px;
+        bottom: 11vh;
         border: 0px solid #000000;
         box-sizing: border-box;
         filter: drop-shadow(100px 500px 500px rgba(0, 0, 0, 0.25));
@@ -245,4 +247,77 @@ h2 {
     }
 }
 
-/* For Mobile */
+/* For Desktop */
+
+.bg-skewed {
+    background: linear-gradient(181.32deg, rgba(2, 102, 96, 0.54) -9.06%, rgba(190, 220, 250, 0) 101.66%);
+    padding: 500px 0;
+    transform: skewY(-(@skewBy));
+    margin-top: -600px;
+}
+
+.about {
+    position: absolute;
+    left: 45%;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    line-height: 100px;
+    /* or 143% */
+
+    letter-spacing: 0.07em;
+    text-decoration-line: underline;
+    top: 40rem;
+}
+
+.about-description {
+    display: flex;
+    justify-content: center;
+}
+
+.first-desc img {
+    position: relative;
+    top: 22em;
+    right: 1em;
+    width: 71px;
+    height: 66px;
+}
+
+.first-desc p {
+    position: relative;
+    top: 7.5em;
+    left: 2.5em;
+    font-weight: 800;
+    font-size: 2.3rem;
+    overflow-wrap: break-word;
+}
+
+/* Trusted By Section */
+
+.trusted {
+    background: linear-gradient(180deg, rgba(255, 154, 140, 0) 0%, rgba(250, 213, 173, 0.54) 96.24%);;
+    padding: 50px 0;
+    margin-top: -100px;
+}
+
+.trusted-by > h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 140.62%;
+    /* or 70px */
+    text-align: center;
+    color: #000000;
+    margin-top: 2em;
+}
+
+.trusted-by > img {
+    display: inline-flex; 
+    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+    left: 18%;
+    margin-top: 5em;
+    margin-left: 4em;
+}
