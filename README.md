@@ -28,11 +28,11 @@
 
 ## Status
 - [x] Plan your project
-- [ ] Create files and deploy it Locally
+- [x] Create files and deploy it Locally
 - [x] Wireframe your website
 - [x] Version control
-- [ ] Build the Home Page
-- [ ] Style the content
+- [x] Build the Home Page
+- [x] Style the content
 - [ ] Make it responsive
 - [ ] Build the Contact Page
 - [ ] Make it interactive
