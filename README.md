@@ -29,8 +29,8 @@
 ## Status
 - [x] Plan your project
 - [ ] Create files and deploy it Locally
-- [ ] Wireframe your website
-- [ ] Version control
+- [x] Wireframe your website
+- [x] Version control
 - [ ] Build the Home Page
 - [ ] Style the content
 - [ ] Make it responsive
