@@ -91,7 +91,7 @@
         text-decoration: none;
         color: inherit;
         cursor: pointer;
-        border-bottom: 4px solid rgba(2, 190, 179, 0.54);;
+        border-bottom: 4px solid rgba(2, 190, 179, 0.54);
     }
 
     .resume-1 a {
@@ -281,7 +281,7 @@
 .projects-section {
     background: linear-gradient(180deg, #C6EBC9 36.51%, rgba(217, 242, 219, 0.67047) 58.89%);
     width: 100%;
-    height: 2500px;
+    height: 2100px;
     overflow: hidden;
 }
 
@@ -322,10 +322,19 @@
     width: 23em; 
 }
 
+/* Footer Section */
+
+.footer-section {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    overflow: hidden;
+}
 
 }
 
 @media only screen and (min-width: 380px) and (max-width: 700px) {
+
     .wanderlust-sample > img {
         margin-left: 7vw;
         margin-top: 2em;
@@ -345,6 +354,53 @@
         width: 23em; 
     }
 
+    .contact-image {
+        text-decoration: none;
+        margin-right: 2em;
+        margin-top: 7em;
+        left: 18vw;
+        flex-grow: 3;
+        position: relative;
+        border-bottom: none;
+    }
+    
+     .copyright {
+        color: white;
+        margin-left: 18vw;
+        margin-top: 2.2em;
+        font-weight: 590;
+        font-family: 'Roboto', sans-serif;
+    }
+
+}
+
+@media only screen and (min-width: 580px) and (max-width: 1400px) {
+    .projects-section {
+        background: linear-gradient(180deg, #C6EBC9 36.51%, rgba(217, 242, 219, 0.67047) 58.89%);
+        width: 100%;
+        height: 40%;
+        overflow: hidden;
+    }
+
+    /* Footer Section */
+
+    .contact-image {
+        text-decoration: none;
+        margin-right: 4.5em;
+        margin-top: 2em;
+        left: 35.7vw;
+        flex-grow: 3;
+        position: relative;
+        border-bottom: none;
+    }
+    
+     .copyright {
+        color: white;
+        margin-left: 39vw;
+        margin-top: 2em;
+        font-weight: 590;
+        font-family: 'Roboto', sans-serif;
+    }
 }
 
 @media only screen and (min-width: 680px) and (max-width: 850px) {
@@ -367,4 +423,63 @@
         width: 23em; 
     }
 
+    /* Project Section */
+
+    .contact-image {
+        text-decoration: none;
+        margin-right: 2em;
+        margin-top: 6em;
+        left: 29vw;
+        flex-grow: 3;
+        position: relative;
+        border-bottom: none;
+    }
+        
+    .copyright {
+        color: white;
+        margin-left: 29vw;
+        margin-top: 2.2em;
+        font-weight: 590;
+        font-family: 'Roboto', sans-serif;
+    }
 }
+
+@media only screen and (max-width: 599px) and (min-width: 625px) {
+        /* Project Section */
+
+        .contact-image {
+            text-decoration: none;
+            margin-right: 2em;
+            margin-top: 7em;
+            left: 23vw;
+            flex-grow: 3;
+            position: relative;
+            border-bottom: none;
+        }
+        
+         .copyright {
+            color: white;
+            margin-left: 24vw;
+            margin-top: 2.2em;
+            font-weight: 590;
+            font-family: 'Roboto', sans-serif;
+        }
+}
+
+/* Contact Section */
+
+@media only screen and (max-width: 600px) {
+    .left-container{
+      display: none;
+    }
+    .lg-view {
+      display:none;  
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .sm-view {
+      display:none;  
+    }
+  }
+  
