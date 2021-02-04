@@ -330,7 +330,6 @@
     background-color: black;
     overflow: hidden;
 }
-
 }
 
 @media only screen and (min-width: 380px) and (max-width: 700px) {
@@ -464,6 +463,28 @@
             font-weight: 590;
             font-family: 'Roboto', sans-serif;
         }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 860px) {
+    /* Project Section */
+
+    .contact-image {
+        text-decoration: none;
+        margin-right: 2em;
+        margin-top: 7em;
+        left: 34vw;
+        flex-grow: 3;
+        position: relative;
+        border-bottom: none;
+    }
+    
+     .copyright {
+        color: white;
+        margin-left: 34vw;
+        margin-top: 2.2em;
+        font-weight: 590;
+        font-family: 'Roboto', sans-serif;
+    }
 }
 
 /* Contact Section */
