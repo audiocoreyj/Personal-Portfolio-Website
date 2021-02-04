@@ -375,7 +375,7 @@ contact-section > h2 {
   display:flex;
   flex:1;
   height: 560px;
-  background-color: $white;
+  background-color: white;
   justify-content:center;
   align-items:center;
   margin-top: -20px;
@@ -417,7 +417,7 @@ input, textarea {
 }
 
 input:focus, textarea:focus{
-  outline:1px solid $teal;
+  outline:1px solid teal;
 }
 
 .submit {
