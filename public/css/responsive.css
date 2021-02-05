@@ -788,6 +788,7 @@
 .projects-section {
     background: linear-gradient(180deg, #C6EBC9 36.51%, rgba(217, 242, 219, 0.67047) 58.89%);
     width: 200%;
+    height: auto;
     overflow: hidden;
 }
 
