@@ -487,6 +487,523 @@
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .nav-list {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        left: -5.5em;
+    }
+
+    .nav-list a {
+        font-size: 2em;
+        font-style: normal;
+        text-transform: uppercase;
+        list-style: none;
+        line-height: 2px;
+    }
+
+    .ham {
+        position: absolute;
+        /* always keep ham on top of everything */
+        z-index: 1000;
+        top: 35px;
+        left: 148vw;
+        width: 36px;
+        height: 36px;
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+        background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
+        background-size: 100%;
+    }
+
+    .showClose {
+        background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
+        position: fixed;
+    }
+
+    .nav-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background: black;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        color: white;
+        /* hide the menu above the screen by default */
+        transform: translateY(-100%);
+        /* transition adds a little animation when sliding in and out the menu */
+        transition: transform 0.4s ease;
+    }
+
+    .showNav {
+        /* show the menu */
+        transform: translateY(0);
+        position: fixed;
+    }
+
+    /* basic nav styling below */
+
+    .nav-bar ul{
+        width: 100%;
+        height: 100%;
+        list-style: none;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+  
+    .nav-bar ul li a {
+        color: white;
+        padding-bottom: 5px;
+        border-bottom: 2px solid black;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .nav-bar ul li a:hover, .nav-bar ul li a:focus {
+        border-bottom: 2px solid white;
+    }
+
+    /* END OF HAMBURGER MENU */
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+        border-bottom: 4px solid rgba(2, 190, 179, 0.54);
+    }
+
+    .resume-1 a {
+        display: inline-block;
+        font-size: 0.5em;
+        padding: 1px 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 800;
+        line-height: 3.5em;
+        transition: 0.2s;
+        background: #d3e0ea;
+        color: #111;
+        letter-spacing: 2px;
+        left: 7vh;
+        top: 2.5vw;
+    }
+
+    .title > h2 {
+        position: relative;
+        top: 2vh;
+        left: 7vh;
+        font-size: 35px;
+        line-height: 1.7em;
+    }
+
+    .resume-1 a:hover {
+        letter-spacing: 3px;
+    }
+
+    /* Skew Background */
+
+   .skew-bg {
+        background: #BC6FF1;
+        padding: 332px 100%;
+        transform: skew(0deg, -10deg);
+        width: 100%;
+        margin-top: -200px;
+    }
+
+    .my-image img {
+        width: 159px;
+        height: 160px;
+        position: absolute;
+        left: 80vw;
+        bottom: 9vh;
+        border: 0px solid #000000;
+        box-sizing: border-box;
+        filter: drop-shadow(100px 500px 500px rgba(0, 0, 0, 0.25));
+        border-radius: 100%;
+    }
+
+   /* Skew Background */
+
+   .skew-bg-2 {
+      padding: 10px 100%;
+      transform: skew(0deg, -10deg);
+      margin-top: -10px; 
+      background: #DBF6E9; 
+    }
+
+    .bg-skewed {
+        background: linear-gradient(181.32deg, rgba(2, 102, 96, 0.54) -9.06%, rgba(190, 220, 250, 0) 101.66%);
+        padding: 500px 100%;
+        transform: skewY(-(@skewBy));
+        margin-top: -600px;
+    }
+    
+    .about > h2 {
+        position: absolute;
+        left: 4em;
+        font-weight: 800;
+        font-style: normal;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        /* or 143% */
+        letter-spacing: 0.07em;
+        text-decoration-line: underline;
+        top: -2em;
+    }
+    
+    .about-description {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .first-desc img {
+        position: relative;
+        top: 22em;
+        right: 6em;
+        width: 71px;
+        height: 66px;
+    }
+    
+    .first-desc p {
+        position: relative;
+        top: 7.5em;
+        left: 1em;
+        font-weight: 800;
+        font-size: 2.3rem;
+        word-wrap: normal;
+    }
+
+/* Trusted By Section */
+
+.trusted {
+    background: linear-gradient(180deg, rgba(255, 154, 140, 0) 0%, rgba(250, 213, 173, 0.54) 96.24%);;
+    padding: 50px 100%;
+    margin-top: -100px;
+}
+
+.trusted-by > h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 140.62%;
+    /* or 70px */
+    color: #000000;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: 2em;
+}
+
+.trusted-by > img {
+    display: inline-flex; 
+    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+    left: -7em;
+    margin-top: 5em;
+    margin-left: 4em;
+}
+
+/* Skill Section */
+
+.skill-section {
+    background: linear-gradient(180deg, #E7D9EA 0%, rgba(231, 217, 234, 0) 90.21%, #E7D9EA 100%);;
+    width: 200%;
+    height: 2200px;
+    overflow: hidden;
+}
+
+.skills > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    /* or 143% */
+    letter-spacing: 0.07em;
+    text-decoration-line: underline;   
+    transform: rotate(-0.01deg);
+    position: relative;
+    left: 43%;
+    top: 1em;
+}
+
+.using-now > .using {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 8em;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.09em;
+    color: #000000;
+    position: absolute;
+    left: 2em;
+    white-space: nowrap;
+}
+
+.using-now > .skills-logo {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    position: relative;
+    top: 20rem;
+    left: 43%;
+}
+
+.learning-section > .learning {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 20em;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.09em;
+    color: #000000;
+    position: absolute;
+    left: 2em;
+    white-space: nowrap;    
+}
+
+.learning-section > .learning-now {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 150px;
+    position: relative;
+    top: 33rem;
+    left: 25%;
+}
+
+/* Porjects Section */
+
+.projects-section {
+    background: linear-gradient(180deg, #C6EBC9 36.51%, rgba(217, 242, 219, 0.67047) 58.89%);
+    width: 200%;
+    height: 400vh;
+    overflow: hidden;
+}
+
+.projects > h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 100px;
+    /* or 143% */
+    text-align: center;
+    letter-spacing: 0.07em;
+    top: 1em;
+    text-decoration: underline;
+    margin-left: 5vw;
+}
+
+/* Projects Sample */
+
+/* Wanderlust Project */
+
+.wanderlust-sample > img {
+    margin-left: 32%;
+    margin-top: 2em;
+}
+
+
+.wanderlust-descrip {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    word-wrap: break-word;
+    line-height: 30px;
+    margin-left: 8%;
+    margin-top: 30px;
+    line-height: 1cm;
+}
+
+/* Colmar Project */
+.colmar-sample > img {
+    margin-left: 18%;
+    margin-top: 4em;  
+}
+
+.colmar-descrip {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    word-wrap: break-word;
+    line-height: 30px;
+    margin-left: 8%;
+    margin-top: 30px;
+    line-height: 1cm;
+}
+
+/* Jamming Project */
+
+.jamming-sample > img {
+    margin-left: 32%;
+    margin-top: 4em; 
+}
+
+.jamming-descrip {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    word-wrap: break-word;
+    line-height: 1cm;
+    margin-left: 8%;
+    margin-top: 30px;
+}
+
+/* Contact Section */
+
+.contact-section {
+	background: linear-gradient(90deg, #BE8CEF 0%, rgba(61, 46, 232, 0.83) 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+    font-size:10px;
+    width: 200%;
+	height: 140vh;
+}
+
+.get-in-touch > h2 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.container {
+	background-color: white;
+	border-radius: 5px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 908px;
+	max-width: 100%;
+	min-height: 480px;
+    min-width:370px;
+}
+
+contact-section > h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.form-container {
+  display: flex;
+}
+
+.left-container {
+  flex: 1;
+  height: 480px;
+  background-color: teal;
+}
+.right-container {
+  display:flex;
+  flex:1;
+  height: 560px;
+  background-color: white;
+  justify-content:center;
+  align-items:center;
+  margin-top: -20px;
+}
+
+.left-container {
+  display: flex;
+  flex: 1;
+  height: 560px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.left-container p {
+  font-size:0.9rem;
+}
+
+.right-inner-container {
+  width:70%;
+  height:80%;
+  text-align:center;
+}
+
+.left-inner-container {
+  height:50%;
+  width:80%;
+  text-align:center;
+  line-height:22px;
+}
+
+input, textarea {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+  font-size:0.8rem;
+}
+
+input:focus, textarea:focus{
+  outline:1px solid teal;
+}
+
+.submit {
+	border-radius: 20px;
+	border: 1px solid #00b4cf;
+	background-color: #00b4cf;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+  cursor:pointer;
+}
+
+.submit:hover {
+  opacity:0.7;
+}
+
+form p {
+  text-align:left;
+}
+
+/* Footer Section */
+.footer-section {
+    width: 200%;
+    height: 40vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.contact-image {
+   text-decoration: none;
+   display: inline-flex;
+   margin-right: 6.5em;
+   margin-top: 2em;
+   left: 25%;
+   flex-grow: 3;
+   position: relative;
+   border-bottom: none;
+}
+
+.copyright {
+    color: white;
+    margin-left: 17em;
+    margin-top: 2.2em;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+}
+
+
+
 /* Contact Section */
 
 @media only screen and (max-width: 600px) {
