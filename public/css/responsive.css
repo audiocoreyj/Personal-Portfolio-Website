@@ -594,14 +594,14 @@
         background: #d3e0ea;
         color: #111;
         letter-spacing: 2px;
-        left: -17vh;
-        top: 2.5vw;
+        left: 10vh;
+        top: -5vw;
     }
 
     .title > h2 {
         position: relative;
-        top: 2vh;
-        left: -17vh;
+        top: -5vh;
+        left: 10vh;
         font-size: 35px;
         line-height: 1.7em;
     }
@@ -621,11 +621,11 @@
     }
 
     .my-image img {
-        width: 149px;
-        height: 150px;
+        width: 159px;
+        height: 160px;
         position: absolute;
-        left: 38vw;
-        bottom: 9vh;
+        left: 78vw;
+        bottom: 12vh;
         border: 0px solid #000000;
         box-sizing: border-box;
         filter: drop-shadow(100px 500px 500px rgba(0, 0, 0, 0.25));
