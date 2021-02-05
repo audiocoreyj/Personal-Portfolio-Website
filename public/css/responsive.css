@@ -489,6 +489,10 @@
 
 @media only screen and (max-width: 480px) {
    
+    * {
+        overflow: hidden;
+    }
+
     .bar1, .bar2, .bar3 {
         margin-left: 170%;
     }
