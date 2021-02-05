@@ -489,6 +489,10 @@
 
 @media only screen and (max-width: 480px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     .bar1, .bar2, .bar3 {
         margin-left: 170%;
     }
@@ -793,7 +797,7 @@
 	font-family: 'Montserrat', sans-serif;
     font-size:10px;
     width: 200%;
-	height: 150vh;
+	height: 140vh;
 }
 
 .get-in-touch > h2 {
@@ -811,7 +815,7 @@
 	position: relative;
 	overflow: hidden;
     margin-left: 0.5em;
-	width: 350px;
+	width: 390px;
 	max-width: 100%;
 	min-height: 600px;
     min-width: 370px;
