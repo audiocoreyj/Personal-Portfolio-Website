@@ -36,5 +36,5 @@
 - [x] Make it responsive
 - [x] Build the Contact Page
 - [ ] Make it interactive
-- [ ] Publish to the web
+- [x] Publish to the web
 - [ ] Project is finished
