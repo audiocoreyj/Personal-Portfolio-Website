@@ -488,90 +488,10 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .nav-list {
-        display: flex;
-        text-align: center;
-        justify-content: space-between;
-        position: relative;
-        left: -5.5em;
+   
+    .bar1, .bar2, .bar3 {
+        margin-left: 170%;
     }
-
-    .nav-list a {
-        font-size: 2em;
-        font-style: normal;
-        text-transform: uppercase;
-        list-style: none;
-        line-height: 2px;
-    }
-
-    .ham {
-        position: absolute;
-        /* always keep ham on top of everything */
-        z-index: 1000;
-        top: 35px;
-        left: 148vw;
-        width: 36px;
-        height: 36px;
-        border: none;
-        cursor: pointer;
-        background-color: transparent;
-        background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
-        background-size: 100%;
-    }
-
-    .showClose {
-        background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
-        position: fixed;
-    }
-
-    .nav-bar {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        background: black;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        color: white;
-        /* hide the menu above the screen by default */
-        transform: translateY(-100%);
-        /* transition adds a little animation when sliding in and out the menu */
-        transition: transform 0.4s ease;
-    }
-
-    .showNav {
-        /* show the menu */
-        transform: translateY(0);
-        position: fixed;
-    }
-
-    /* basic nav styling below */
-
-    .nav-bar ul{
-        width: 100%;
-        height: 100%;
-        list-style: none;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-  
-    .nav-bar ul li a {
-        color: white;
-        padding-bottom: 5px;
-        border-bottom: 2px solid black;
-        text-decoration: none;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1.2rem;
-    }
-
-    .nav-bar ul li a:hover, .nav-bar ul li a:focus {
-        border-bottom: 2px solid white;
-    }
-
-    /* END OF HAMBURGER MENU */
 
     a {
         text-decoration: none;
@@ -594,14 +514,14 @@
         background: #d3e0ea;
         color: #111;
         letter-spacing: 2px;
-        left: 10vh;
+        left: 9vh;
         top: -5vw;
     }
 
     .title > h2 {
         position: relative;
         top: -5vh;
-        left: 10vh;
+        left: 9vh;
         font-size: 35px;
         line-height: 1.7em;
     }
@@ -624,8 +544,8 @@
         width: 159px;
         height: 160px;
         position: absolute;
-        left: 78vw;
-        bottom: 12vh;
+        left: 90vw;
+        bottom: 14vh;
         border: 0px solid #000000;
         box-sizing: border-box;
         filter: drop-shadow(100px 500px 500px rgba(0, 0, 0, 0.25));
@@ -650,7 +570,7 @@
     
     .about > h2 {
         position: absolute;
-        left: -1em;
+        left: 4em;
         font-weight: 800;
         font-style: normal;
         font-family: 'Montserrat', sans-serif;
@@ -658,7 +578,7 @@
         /* or 143% */
         letter-spacing: 0.07em;
         text-decoration-line: underline;
-        top: -2em;
+        top: 0.3em;
     }
     
     .about-description {
@@ -669,7 +589,7 @@
     .first-desc img {
         position: relative;
         top: 22em;
-        right: 18em;
+        right: 1em;
         width: 71px;
         height: 66px;
     }
@@ -677,9 +597,10 @@
     .first-desc p {
         position: relative;
         top: 7.5em;
-        left: -5em;
+        left: 3em;
         font-weight: 800;
         font-size: 2.3rem;
+        white-space: nowrap;
     }
 
 /* Trusted By Section */
@@ -699,7 +620,7 @@
     /* or 70px */
     color: #000000;
     text-align: center;
-    margin-left: -380px;
+    margin-left: -2.5em;
     margin-top: 2em;
     white-space: nowrap;
 }
@@ -708,7 +629,7 @@
     display: inline-flex; 
     filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
     position: relative;
-    left: -20em;
+    left: -7em;
     margin-top: 5em;
     margin-left: 4em;
 }
@@ -732,7 +653,7 @@
     text-decoration-line: underline;   
     transform: rotate(-0.01deg);
     position: relative;
-    left: 2.5em;
+    left: 6.5em;
     top: 1em;
 }
 
@@ -746,7 +667,7 @@
     letter-spacing: 0.09em;
     color: #000000;
     position: absolute;
-    left: 0.5em;
+    left: 2em;
     white-space: nowrap;
 }
 
@@ -756,7 +677,7 @@
     margin-left: 50px;
     position: relative;
     top: 20rem;
-    left: 12%;
+    left: 40%;
 }
 
 .learning-section > .learning {
@@ -769,7 +690,7 @@
     letter-spacing: 0.09em;
     color: #000000;
     position: absolute;
-    left: 0.5em;
+    left: 2em;
     white-space: nowrap;    
 }
 
@@ -779,7 +700,7 @@
     margin-left: 150px;
     position: relative;
     top: 33rem;
-    left: -4%;
+    left: 22%;
 }
 
 /* Porjects Section */
@@ -802,7 +723,7 @@
     letter-spacing: 0.07em;
     top: 1em;
     text-decoration: underline;
-    margin-left: -90vw;
+    margin-left: 15vw;
 }
 
 /* Projects Sample */
@@ -810,8 +731,7 @@
 /* Wanderlust Project */
 
 .wanderlust-sample > img {
-    margin-left: 9%;
-    width: 290px;
+    margin-left: 28%;
     margin-top: 2em;
 }
 
@@ -828,8 +748,7 @@
 
 /* Colmar Project */
 .colmar-sample > img {
-    margin-left: 3%;
-    width: 350px;
+    margin-left: 10%;
     margin-top: 4em;  
 }
 
@@ -848,8 +767,7 @@
 /* Jamming Project */
 
 .jamming-sample > img {
-    margin-left: 9%;
-    width: 290px;
+    margin-left: 27%;
     margin-top: 4em; 
 }
 
@@ -882,7 +800,7 @@
     text-transform: uppercase;
     margin-bottom: 5px;
     text-decoration: underline;
-    margin-left: -7.5em;
+    margin-left: 0.5em;
 }
 
 .container {
@@ -892,8 +810,8 @@
 			0 10px 10px rgba(0,0,0,0.22);
 	position: relative;
 	overflow: hidden;
-    margin-left: -38em;
-	width: 300px;
+    margin-left: 0.5em;
+	width: 350px;
 	max-width: 100%;
 	min-height: 600px;
     min-width: 370px;
@@ -994,9 +912,9 @@ form p {
 .contact-image {
    text-decoration: none;
    display: inline-flex;
-   margin-right: 2em;
+   margin-right: 5em;
    margin-top: 2em;
-   left: 8%;
+   left: 24%;
    flex-grow: 3;
    position: relative;
    border-bottom: none;
@@ -1004,7 +922,7 @@ form p {
 
 .copyright {
     color: white;
-    margin-left: 15vw;
+    margin-left: 60vw;
     margin-top: 2.2em;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
