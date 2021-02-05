@@ -594,14 +594,14 @@
         background: #d3e0ea;
         color: #111;
         letter-spacing: 2px;
-        left: 7vh;
+        left: -17vh;
         top: 2.5vw;
     }
 
     .title > h2 {
         position: relative;
         top: 2vh;
-        left: 7vh;
+        left: -17vh;
         font-size: 35px;
         line-height: 1.7em;
     }
@@ -621,10 +621,10 @@
     }
 
     .my-image img {
-        width: 159px;
-        height: 160px;
+        width: 149px;
+        height: 150px;
         position: absolute;
-        left: 80vw;
+        left: 38vw;
         bottom: 9vh;
         border: 0px solid #000000;
         box-sizing: border-box;
@@ -650,7 +650,7 @@
     
     .about > h2 {
         position: absolute;
-        left: 4em;
+        left: -1em;
         font-weight: 800;
         font-style: normal;
         font-family: 'Montserrat', sans-serif;
@@ -669,7 +669,7 @@
     .first-desc img {
         position: relative;
         top: 22em;
-        right: 6em;
+        right: 18em;
         width: 71px;
         height: 66px;
     }
@@ -677,10 +677,9 @@
     .first-desc p {
         position: relative;
         top: 7.5em;
-        left: 1em;
+        left: -5em;
         font-weight: 800;
         font-size: 2.3rem;
-        word-wrap: normal;
     }
 
 /* Trusted By Section */
@@ -700,7 +699,7 @@
     /* or 70px */
     color: #000000;
     text-align: center;
-    margin-left: -100px;
+    margin-left: -380px;
     margin-top: 2em;
     white-space: nowrap;
 }
@@ -709,7 +708,7 @@
     display: inline-flex; 
     filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
     position: relative;
-    left: -7em;
+    left: -20em;
     margin-top: 5em;
     margin-left: 4em;
 }
@@ -733,7 +732,7 @@
     text-decoration-line: underline;   
     transform: rotate(-0.01deg);
     position: relative;
-    left: 43%;
+    left: 2.5em;
     top: 1em;
 }
 
@@ -747,7 +746,7 @@
     letter-spacing: 0.09em;
     color: #000000;
     position: absolute;
-    left: 2em;
+    left: 0.5em;
     white-space: nowrap;
 }
 
@@ -757,7 +756,7 @@
     margin-left: 50px;
     position: relative;
     top: 20rem;
-    left: 43%;
+    left: 12%;
 }
 
 .learning-section > .learning {
@@ -770,7 +769,7 @@
     letter-spacing: 0.09em;
     color: #000000;
     position: absolute;
-    left: 2em;
+    left: 0.5em;
     white-space: nowrap;    
 }
 
@@ -780,7 +779,7 @@
     margin-left: 150px;
     position: relative;
     top: 33rem;
-    left: 25%;
+    left: -4%;
 }
 
 /* Porjects Section */
@@ -803,7 +802,7 @@
     letter-spacing: 0.07em;
     top: 1em;
     text-decoration: underline;
-    margin-left: 5vw;
+    margin-left: -90vw;
 }
 
 /* Projects Sample */
@@ -811,7 +810,8 @@
 /* Wanderlust Project */
 
 .wanderlust-sample > img {
-    margin-left: 20%;
+    margin-left: 9%;
+    width: 290px;
     margin-top: 2em;
 }
 
@@ -819,16 +819,17 @@
 .wanderlust-descrip {
     font-family: 'Montserrat';
     font-size: 20px;
-    word-wrap: break-word;
     line-height: 30px;
-    margin-left: 8%;
+    margin-left: 2%;
     margin-top: 30px;
-    line-height: 1cm;
+    word-wrap: break-word;
+    text-align: left;
 }
 
 /* Colmar Project */
 .colmar-sample > img {
-    margin-left: 11%;
+    margin-left: 3%;
+    width: 350px;
     margin-top: 4em;  
 }
 
@@ -837,15 +838,18 @@
     font-size: 20px;
     word-wrap: break-word;
     line-height: 30px;
-    margin-left: 8%;
+    margin-left: 2%;
     margin-top: 30px;
     line-height: 1cm;
+    word-wrap: break-word;
+    text-align: left;
 }
 
 /* Jamming Project */
 
 .jamming-sample > img {
-    margin-left: 20%;
+    margin-left: 9%;
+    width: 290px;
     margin-top: 4em; 
 }
 
@@ -854,8 +858,10 @@
     font-size: 20px;
     word-wrap: break-word;
     line-height: 1cm;
-    margin-left: 8%;
+    margin-left: 2%;
     margin-top: 30px;
+    word-wrap: break-word;
+    text-align: left;
 }
 
 /* Contact Section */
@@ -869,13 +875,14 @@
 	font-family: 'Montserrat', sans-serif;
     font-size:10px;
     width: 200%;
-	height: 140vh;
+	height: 160vh;
 }
 
 .get-in-touch > h2 {
     text-transform: uppercase;
     margin-bottom: 5px;
     text-decoration: underline;
+    margin-left: -7.5em;
 }
 
 .container {
@@ -885,10 +892,11 @@
 			0 10px 10px rgba(0,0,0,0.22);
 	position: relative;
 	overflow: hidden;
-	width: 908px;
+    margin-left: -38em;
+	width: 300px;
 	max-width: 100%;
-	min-height: 480px;
-    min-width:370px;
+	min-height: 600px;
+    min-width: 370px;
 }
 
 contact-section > h2 {
@@ -986,9 +994,9 @@ form p {
 .contact-image {
    text-decoration: none;
    display: inline-flex;
-   margin-right: 6.5em;
+   margin-right: 2em;
    margin-top: 2em;
-   left: 22%;
+   left: 8%;
    flex-grow: 3;
    position: relative;
    border-bottom: none;
@@ -996,7 +1004,7 @@ form p {
 
 .copyright {
     color: white;
-    margin-left: 60vw;
+    margin-left: 15vw;
     margin-top: 2.2em;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
