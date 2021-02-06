@@ -1,3 +1,5 @@
+import AOS from 'aos';
+
 var navbar = document.querySelector(".nav-bar")
 var ham = document.querySelector(".ham")
 
