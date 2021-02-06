@@ -11,6 +11,7 @@
     <!-- Link CSS -->
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="./public/css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Link Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,9 +22,6 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-
-    <!-- JavaScript File -->
-    <script src="./public/script.js" async></script>
 
 </head>
 
@@ -47,15 +45,16 @@
 
         <div class="skew-bg">
             <div class="content">
-              <div class="title">
+              <div class="title" data-aos="fade-left">
                 <h2>Hello,</h2>
                 <h2>I'm Eugene,</h2>
                 <h2>A Dev.</h2>
-                  <div class="resume-1">
+                  <div class="resume-1" data-aos="fade-left">
                      <a href="#">DOWNLOAD RESUME</a>
                   </div>
 
-                <div class="my-image">
+                <div class="my-image" 
+                data-aos="fade-right">
                     <img src="./images/Untitled.png" alt="">
                 </div>
 
@@ -73,15 +72,15 @@
       </div>
 
       <div class="about-description">
-        <div class="first-desc">
+        <div class="first-desc" data-aos="zoom-in">
           <img src="./images/icon/person-24px.svg" alt="">
           <p>Eugene, 17</p>
 
-          <div class="dev-desc">
+          <div class="dev-desc" data-aos="zoom-in">
             <img src="./images/icon/laptop-24px.svg" alt="">
             <p>A Dev</p>
 
-            <div class="location-desc">
+            <div class="location-desc" data-aos="zoom-in">
               <img src="./images/icon/room-24px.svg" alt="">
               <p>Kuala Lumpur, 🇲🇾 </p>
             </div>
@@ -96,10 +95,10 @@
         <div class="trusted-by">
           <h2>Trusted By</h2>
 
-          <img src="./images/people/Elipse2.png" alt="">
-          <img src="./images/people/Ellipse.png" alt="">
-          <img src="./images/people/Ellipse3.png" alt="">
-          <img src="./images/people/Ellipse4.png" alt="">
+          <img src="./images/people/Elipse2.png" alt="" data-aos="zoom-in-right">
+          <img src="./images/people/Ellipse.png" alt="" data-aos="zoom-in-right">
+          <img src="./images/people/Ellipse3.png" alt="" data-aos="zoom-in-right">
+          <img src="./images/people/Ellipse4.png" alt="" data-aos="zoom-in-right">
         </div>
       </div>
     </section>
@@ -113,19 +112,19 @@
         <div class="using-now">
           <p class="using">Using Now : </p>
 
-          <img src="./images/skills logo/css 1.png" alt="" class="skills-logo">
-          <img src="./images/skills logo/html 1.png" alt="" class="skills-logo">
-          <img src="./images/skills logo/bootstrap 1.png" alt="" class="skills-logo">
-          <img src="./images/skills logo/javascript 1.png" alt="" class="skills-logo">
-          <img src="./images/skills logo/git 1.png" alt="" class="skills-logo">
-          <img src="./images/skills logo/ads manager.png" alt="" class="skills-logo">
+          <img src="./images/skills logo/css 1.png" alt="" class="skills-logo" data-aos="fade-right">
+          <img src="./images/skills logo/html 1.png" alt="" class="skills-logo" data-aos="fade-right">
+          <img src="./images/skills logo/bootstrap 1.png" alt="" class="skills-logo" data-aos="fade-right">
+          <img src="./images/skills logo/javascript 1.png" alt="" class="skills-logo" data-aos="fade-right">
+          <img src="./images/skills logo/git 1.png" alt="" class="skills-logo" data-aos="fade-right">
+          <img src="./images/skills logo/ads manager.png" alt="" class="skills-logo" data-aos="fade-right">
 
           <div class="learning-section">
           <p class="learning">Learning Now : </p>
 
-          <img src="./images/skills logo/Group.png" alt="" class="learning-now">
-          <img src="./images/skills logo/mysql 1.png" alt="" class="learning-now">
-          <img src="./images/skills logo/express 1.png" alt="" class="learning-now">
+          <img src="./images/skills logo/Group.png" alt="" class="learning-now" data-aos="fade-right">
+          <img src="./images/skills logo/mysql 1.png" alt="" class="learning-now" data-aos="fade-right">
+          <img src="./images/skills logo/express 1.png" alt="" class="learning-now" data-aos="fade-right">
           </div>
         </div>
       </div>
@@ -138,9 +137,9 @@
 
         <div class="projects-sample">
           <div class="wanderlust-sample">
-            <img src="./images/projects/wanderlust 1.png" alt="">
+            <img src="./images/projects/wanderlust 1.png" alt="" data-aos="fade-right">
 
-            <div class="wanderlust-descrip">
+            <div class="wanderlust-descrip" data-aos="fade-left">
              <h3>Wanderlust API Project</h3> 
              
              <span>
@@ -151,9 +150,9 @@
            </div>
 
            <div class="colmar-sample">
-             <img src="./images/projects/colmar 1.png" alt="">
+             <img src="./images/projects/colmar 1.png" alt="" data-aos="fade-right">
 
-              <div class="colmar-descrip">
+              <div class="colmar-descrip" data-aos="fade-left">
                 <h3>Colmar Academy Landing Page</h3>
 
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptate quisquam distinctio nisi sit reiciendis pariatur quo tempora tenetur, numquam itaque nam illum facilis veritatis. Omnis beatae illo unde impedit?</p>
@@ -161,9 +160,9 @@
            </div>
 
            <div class="jamming-sample">
-             <img src="./images/projects/jamming 1.png" alt="">
+             <img src="./images/projects/jamming 1.png" alt="" data-aos="fade-right">
 
-             <div class="jamming-descrip">
+             <div class="jamming-descrip" data-aos="fade-left">
                <h3>Jamming Project Using Spotify's API</h3>
 
                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa quidem tempora laudantium, assumenda dicta perferendis exercitationem. Amet eveniet, iste totam, fuga blanditiis vel sed incidunt quaerat, architecto nihil debitis quia.</p>
@@ -180,7 +179,7 @@
       <div class="get-in-touch" id="Contact">
        <h2>Get In Touch</h2>
        </div>
-       <div class="container">
+       <div class="container" data-aos="flip-up">
         <div class="form-container">
           <div class="left-container">
             <div class="left-inner-container">
@@ -216,7 +215,7 @@
 
     <footer>
       <div class="footer-section">
-        <div class="contact-logo">
+        <div class="contact-logo" data-aos="fade-right">
 
           <a href="https://www.linkedin.com/in/eugene-goh-5236241a9/" target="_blank" class="contact-image"><img src="./images/contact logo/linkedin 1.png" alt=""></a>
 
@@ -232,6 +231,9 @@
 
     </footer>
 
+    <!-- JavaScript File -->
+    <script src="./public/script.js" async></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" async></script>
 
 </body>
 </html>
