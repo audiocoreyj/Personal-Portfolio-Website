@@ -653,7 +653,7 @@
     text-decoration-line: underline;   
     transform: rotate(-0.01deg);
     position: relative;
-    left: 6em;
+    left: 5.8em;
     top: 1em;
 }
 
@@ -793,7 +793,7 @@
 	font-family: 'Montserrat', sans-serif;
     font-size:10px;
     width: 200%;
-	height: 153vh;
+	height: 146vh;
 }
 
 .get-in-touch > h2 {
@@ -811,8 +811,8 @@
 	position: relative;
 	overflow: hidden;
     margin-left: 0.5em;
-	width: 390px;
-	max-width: 100%;
+	width: 495px;
+	max-width: 200%;
 	min-height: 600px;
     min-width: 370px;
 }
