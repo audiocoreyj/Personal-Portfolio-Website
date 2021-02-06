@@ -35,6 +35,6 @@
 - [x] Style the content
 - [x] Make it responsive
 - [x] Build the Contact Page
-- [ ] Make it interactive
+- [x] Make it interactive
 - [x] Publish to the web
-- [ ] Project is finished
+- [x] Project is finished
